@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import WordRelay from './WordRelay';
+import NumberBaseball from './NumberBaseball'
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <NumberBaseball />
   </React.StrictMode>,
   document.getElementById('root')
 );
